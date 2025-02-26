@@ -137,6 +137,34 @@ npm run dev
 
 ---
 
+## User Interface
+
+### Landing Page
+![Landing Page](./docs/landing-page.png)
+
+### Login Page
+![Login Page](./docs/login-page.png)
+![Login Page](./docs/login-page-2.png)
+![Login Page](./docs/login-page-3.png)
+
+### Doctor's Dashbord
+![Doctor Dashboard](./docs/doctor-dashboard.png)
+
+### Adding a Patient
+![Patient Page](./docs/patient-added.png)
+
+### Diagnose tool
+![Tool Page](./docs/disease-predictor.png)
+![Tool Page](./docs/disease-predictor-1.png)
+
+### Medical Report
+![Reponse Page](./docs/response.png)
+![Response Page](./docs/response-download.png)
+![Response Page](./docs/report.png)
+
+
+---
+
 ## 📊 **Scalability & Performance**
 
 - **Supports thousands of concurrent users** with efficient load balancing.
