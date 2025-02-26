@@ -83,9 +83,9 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
     const { error } = await supabase.auth.signInWithOAuth({
       provider: 'google',
       options: {
-        redirectTo: 'https://shiny-stardust-e9d62b.netlify.app/auth/callback', 
+        redirectTo: `${window.location.origin}`+`/auth/callback`, 
         queryParams: {
-          access_type: 'offline',
+          access_type: 'online',
           prompt: 'consent',
         },
       },
